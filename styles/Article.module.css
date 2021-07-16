@@ -4,16 +4,19 @@
     justify-content: center;
     flex-wrap: wrap;
     max-width: 800px;
+    margin-top: 3rem;
 }
 
 .card {
     margin: 1rem;
-    /* flex */
+    flex-basis: 45%;
+    padding: 1.5rem;
+    text-align: left;
     color: inherit;
     text-decoration: none;
     border: 1px solid #eaeaea;
     border-radius: 10px;
-    transition: color 0.14s ease, border-color 0.15 s ease;
+    transition: color 0.15s ease, border-color 0.15s ease;
 }
 
 .card:hover,
@@ -38,7 +41,7 @@
     height: 1em;
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
     .grid {
         width: 100%;
         flex-direction: column;
