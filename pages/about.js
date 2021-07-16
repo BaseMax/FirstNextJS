@@ -4,9 +4,10 @@ const about = () => {
 
     return (
         <div>
-            <Head>
+            <Meta title="About" />
+            {/* <Head>
                 <title>About</title>
-            </Head>
+            </Head> */}
             <h1>About</h1>
         </div>
     )
