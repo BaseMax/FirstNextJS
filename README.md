@@ -2,6 +2,8 @@
 
 A simple blog project based in NextJS (ReactJS); Next.js Crash Course
 
+[![First NextJS](preview.png)](https://basemax.github.io/FirstNextJS/)
+
 -------
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
