@@ -1,6 +1,6 @@
 import { server } from '../../../config'
 import Link from 'next/link'
-// import { useRouter } from 'next/router'
+import { useRouter } from 'next/router'
 import Meta from '../../../components/Meta'
 
 const article = ({ article }) => {
@@ -11,7 +11,7 @@ const article = ({ article }) => {
     <>
       <Meta title={article.title} description={article.excerpt} />
       <h1>{article.title}</h1>
-      <p style={{padding: '20px'}}>{article.body}</p>
+      <p>{article.body}</p>
       <br />
       <Link href='/'>Go Back</Link>
     </>
